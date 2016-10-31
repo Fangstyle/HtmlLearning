@@ -29,23 +29,23 @@
     height: 32px;
     background-color: #F1F1F1;
 }
-.top_menu .fisrt_ul{
+ .fisrt_ul{
     float: left;
     width: 258px;
     color: #999999;
 }
-.top_menu .fisrt_ul li {
+ .fisrt_ul li {
     margin-left: 200px;
     font: 12px/32px "微软雅黑";
 }
-.top_menu .second_ul{
+ .second_ul{
     float: right;
 }
-.top_menu .second_ul li{
+ .second_ul li{
     float: left;
    padding: 0 12px 0 10px;
 }
-.top_menu .second_ul li a{
+ .second_ul li a{
     font: 12px/32px "微软雅黑";
     color: #999999;
 }
@@ -77,3 +77,206 @@
     left: 0;
 }
 /*头部灰色菜单栏结束*/
+
+/* 中部logo + 导航栏 +  开始*/
+.head_top{
+    width: 100%;
+    height: 140px;
+    background-color: #F6F6F6;
+    float: left;
+}
+
+.head_top .w{
+    position: relative;
+    height: 100%;
+}
+/*Logo 开始*/
+.head_top_l {
+    width: 190px;
+    height: 100%;
+    float: left;
+}
+.head_top .head_top_l a{
+    display: block;
+    width: 190px;
+    height: 170px;
+    background:url("../images/logo.v2.png") no-repeat #fff ;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+}
+h1{
+    text-indent: -2000px;
+}
+/*Logo 结束*/
+
+.head_top_mid{
+    float:  left;
+    width:  660px;
+    height: 100%;
+    padding-left: 130px;
+    margin-top: 25px;
+}
+.head_top_mid input{
+    width:498px;
+    height: 33px;
+    border: 1px solid #F10215;
+    position: relative;
+    float:  left;
+}
+.head_top_mid button {
+    width: 50px;
+    height: 35px;
+    background-color: #F10215;
+    float: left;
+    border: none;
+}
+.hot_search{
+    margin-top: 8px;
+}
+.hot_search a{
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+    font-size: 11px;
+}
+.head_mid_type{
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+    width: 790px;
+    height: 40px;
+}
+.head_mid_type ul{
+    height: 40px ;
+    float: left;
+    font: 18px/40px "微软雅黑";
+}
+.head_mid_type li{
+    float:  left;
+    margin: 0 0 0 30px;
+
+}
+.head_mid_type .spacer{
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: -10px;
+    width: 1px;
+    height: 10px;
+    background-color: #000;
+}
+.head_mid_type li a{
+    color: #666;
+}
+
+.head_top_r {
+    height: 100%;
+    float: left;
+}
+.head_top_r a{
+    margin-top: 25px;
+    float: left;
+    padding: 0px 57px 0px 52px;
+    background-color: #fff;
+    font: 13px/33px "微软雅黑";
+    color: #f10214;
+}
+.head_top_r i{
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin: 93px 0 0 10px;
+}
+/* 中部logo + 导航栏 +  结束*/
+
+
+/* 网页底部开始*/
+/*底部4个链接开始*/
+.foot{
+    width: 100%;
+}
+.foot_top{
+    width: 100%;
+    height: 54px;
+    padding: 20px 0;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    background-color: #F5F5F5;
+}
+.foot_top .first li{
+    width: 302px;
+    height: 54px;
+    float: left;
+}
+/*底部4个链接结束*/
+/*底部菜单详情开始*/
+.foot_menu_detail {
+    height: 190px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.foot_menu_detail dl{
+    float: left;
+    width: 275px;
+}
+.foot_menu_detail .lalala{
+    width: 100px;
+}
+.foot_menu_detail dl dt{
+    padding: 6px 0;
+    font: 400 16px/24px "microsoft yahei";
+    color: #666666;
+}
+.foot_menu_detail dd{
+    font: 400 12px/22px "microsoft yahei";
+    color: #666666;
+}
+.foot_menu_detail dd a {
+    color: #666666;
+}
+.foot_final{
+    padding: 20px 0 30px;
+
+}
+/*底部菜单详情结束*/
+/*底部关于我们开始*/
+.foot_final .first{
+    text-align: center;
+    margin-top: 25px;
+}
+.foot_final {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #666666;
+}
+.foot_final .first a{
+    color: #666666;
+}
+.foot_final .second{
+    text-align: center;
+    font: 12px/20px "microsoft yahei";
+    color: #666666;
+}
+.foot_final .second a{
+    color: #666666;
+}
+.first a :hover{
+    color: #C81623;
+}
+.second a:hover{
+    color: #C81623;
+}
+.third {
+    text-align: center;
+    padding: 23px 0 30px 0
+}
+.third img{
+    display: inline;
+}
+.third a{
+    margin-left: 15px;
+}
+/*底部关于我们结束*/
+/* 网页底部结束*/
