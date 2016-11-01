@@ -1,5 +1,5 @@
 .w{
-    width: 1220px;
+    width: 1190px;
     margin: 0 auto;
 }
 /*头部广告开始*/
@@ -207,7 +207,7 @@ h1{
     background-color: #F5F5F5;
 }
 .foot_top .first li{
-    width: 302px;
+    width: 270px;
     height: 54px;
     float: left;
 }
@@ -219,7 +219,7 @@ h1{
 }
 .foot_menu_detail dl{
     float: left;
-    width: 275px;
+    width: 270px;
 }
 .foot_menu_detail .lalala{
     width: 100px;
